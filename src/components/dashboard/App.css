@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .rbc-event {
+
+    background-color: red !important;
+   
+  }
+  .rbc-time-content{
+    overflow-y: scroll;  /* For vertical scroll, use overflow-x for horizontal scroll */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;
+  }
+  .rbc-day-slot rbc-time-column rbc-now rbc-today {
+    /* background-color: white !important */
+  }
+  .App-header {
+    background-color: white;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  .rbc-day-slot .rbc-events-container{
+    background-color: rgba(255, 255, 255, 0.381);
+  }
+  .calendar-container{
+    background-color: white;
+  }
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

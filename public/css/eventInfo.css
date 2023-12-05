@@ -1,0 +1,31 @@
+.eventInfoCard{
+  display: flex;
+  margin: auto
+}
+.card-img-top{
+  /* max-height: 500px */
+}
+.name{
+
+
+}
+.inputForm{
+  display: flex
+}
+.formTextInput {
+  display: flex;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+@media only screen and (max-width: 600px) {
+  .card-img-top{
+    /* max-height: 250px */
+  }
+  .name{
+    /* max-width: 400px; */
+  }
+
+}
